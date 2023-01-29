@@ -26,25 +26,22 @@ ul {
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: 800;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   color: var(--main-text-color);
   text-decoration: none;
 }
 .span-logo {
-  font-family: 'Raleway', sans-serif;
-  font-style: 800;
-  font-size: 18px;
-  line-height: 1.33;
   color: var(--btn-text-color);
 }
 
 .studio,
 .portfolio,
 .contacts {
-  font-family: 'Roboto', sans-serif;
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
@@ -62,6 +59,7 @@ ul {
 .phone {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-text-color);
@@ -73,128 +71,150 @@ ul {
   color: var(--btn-text-color);
 }
 
+.hero {
+  background-color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.title-text {
+  color: var(--main-bg-color);
+}
+
 .title-button {
+  cursor: pointer;
   background-color: var(--btn-text-color);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
   color: var(--title-text-color);
 }
 .title-button:hover,
 .title-button:focus {
-  cursor: pointer;
   background-color: var(--title-btn-active-hover);
   color: var(--title-text-color);
 }
-
-.none {
+/* Виправити !!! */
+/* .none {
   display: none;
-}
+} */
 
 .post-title {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
 .post-title-text {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
 
 .images-title {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+
   color: var(--main-text-color);
 }
 
+.team-section {
+  background-color: var(--second-bg-color);
+}
+
 .team-title {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
 .post-team-title {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 
 .team-text {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
 
+.footer .logo {
+  color: var(--btn-bg-color);
+}
+
 .logo-text {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--footer-text);
 }
+
+.footer {
+  background-color: var(--main-text-color);
+}
+
 .button-all,
 .button-web,
 .button-app,
 .button-design,
 .button-marketing {
+  cursor: pointer;
   background-color: var(--btn-bg-color);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
   color: var(--btn-text-color);
 }
 .button-all:hover,
-.button-all:focus {
-  cursor: pointer;
-  background-color: var(--btn-bg-color-active);
-  color: var(--btn-text-color-active);
-}
-
+.button-all:focus,
 .button-web:hover,
-.button-web:focus {
-  cursor: pointer;
-  background-color: var(--btn-bg-color-active);
-  color: var(--btn-text-color-active);
-}
-
+.button-web:focus,
 .button-app:hover,
-.button-app:focus {
-  cursor: pointer;
-  background-color: var(--btn-bg-color-active);
-  color: var(--btn-text-color-active);
-}
-
+.button-app:focus,
 .button-design:hover,
-.button-design:focus {
-  cursor: pointer;
-  background-color: var(--btn-bg-color-active);
-  color: var(--btn-text-color-active);
-}
-
+.button-design:focus,
 .button-marketing:hover,
 .button-marketing:focus {
-  cursor: pointer;
   background-color: var(--btn-bg-color-active);
   color: var(--btn-text-color-active);
 }
+
 .post-images-title {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
 .images-text {
-  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
