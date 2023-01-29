@@ -18,12 +18,15 @@ body {
 }
 ul {
   list-style: none;
+}
+
+.link {
   text-decoration: none;
 }
 
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
+  font-style: 800;
   font-size: 18px;
   line-height: 1.33;
   color: var(--main-text-color);
@@ -31,59 +34,31 @@ ul {
 }
 .span-logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
+  font-style: 800;
   font-size: 18px;
   line-height: 1.33;
   color: var(--btn-text-color);
 }
 
-.studio {
+.studio,
+.portfolio,
+.contacts {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  font-style: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--main-text-color);
 }
 .studio:hover,
-.studio:focus {
-  color: var(--btn-text-color);
-}
-.portfolio {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--main-text-color);
-}
+.studio:focus,
 .portfolio:hover,
-.portfolio:focus {
-  color: var(--btn-text-color);
-}
-
-.contacts {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--main-text-color);
-}
+.portfolio:focus,
 .contacts:hover,
 .contacts:focus {
   color: var(--btn-text-color);
 }
 
-.mail {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--second-text-color);
-}
-.mail:hover,
-.mail:focus {
-  color: var(--btn-text-color);
-}
+.mail,
 .phone {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -91,17 +66,13 @@ ul {
   line-height: 1.5;
   color: var(--second-text-color);
 }
+.mail:hover,
+.mail:focus,
 .phone:hover,
 .phone:focus {
   color: var(--btn-text-color);
 }
-.title {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--second-text-color);
-  font-size: 56px;
-  line-height: 1.07;
-  color: var(--title-text-color);
-}
+
 .title-button {
   background-color: var(--btn-text-color);
   font-family: 'Roboto', sans-serif;
@@ -116,52 +87,64 @@ ul {
   background-color: var(--title-btn-active-hover);
   color: var(--title-text-color);
 }
+
 .none {
   display: none;
 }
+
 .post-title {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   line-height: 1.2;
   color: var(--main-text-color);
 }
+
 .post-title-text {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-text-color);
 }
+
 .images-title {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   line-height: 1.11;
   color: var(--main-text-color);
 }
+
 .team-title {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   line-height: 1.11;
   color: var(--main-text-color);
 }
+
 .post-team-title {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   line-height: 1.2;
   color: var(--main-text-color);
 }
+
 .team-text {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-text-color);
 }
+
 .logo-text {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: var(--footer-text);
 }
-.button-all {
+.button-all,
+.button-web,
+.button-app,
+.button-design,
+.button-marketing {
   background-color: var(--btn-bg-color);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -175,56 +158,28 @@ ul {
   background-color: var(--btn-bg-color-active);
   color: var(--btn-text-color-active);
 }
-.button-web {
-  background-color: var(--btn-bg-color);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--btn-text-color);
-}
+
 .button-web:hover,
 .button-web:focus {
   cursor: pointer;
   background-color: var(--btn-bg-color-active);
   color: var(--btn-text-color-active);
 }
-.button-app {
-  background-color: var(--btn-bg-color);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--btn-text-color);
-}
+
 .button-app:hover,
 .button-app:focus {
   cursor: pointer;
   background-color: var(--btn-bg-color-active);
   color: var(--btn-text-color-active);
 }
-.button-design {
-  background-color: var(--btn-bg-color);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--btn-text-color);
-}
+
 .button-design:hover,
 .button-design:focus {
   cursor: pointer;
   background-color: var(--btn-bg-color-active);
   color: var(--btn-text-color-active);
 }
-.button-marketing {
-  background-color: var(--btn-bg-color);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--btn-text-color);
-}
+
 .button-marketing:hover,
 .button-marketing:focus {
   cursor: pointer;
@@ -242,7 +197,4 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   color: var(--second-text-color);
-}
-.link {
-  text-decoration: none;
 }
