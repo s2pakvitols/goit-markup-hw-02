@@ -18,6 +18,7 @@ body {
 }
 ul {
   list-style: none;
+  text-decoration: none;
 }
 
 .logo {
@@ -242,6 +243,6 @@ ul {
   line-height: 1.5;
   color: var(--second-text-color);
 }
-ul .link {
+.link {
   text-decoration: none;
 }
