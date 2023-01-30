@@ -11,11 +11,13 @@
   --title-btn-active-hover: #404bbf;
   --footer-text: #e7e9fc;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
 }
+
 ul {
   list-style: none;
 }
@@ -57,8 +59,6 @@ ul {
 
 .mail,
 .phone {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -73,13 +73,14 @@ ul {
 
 .hero {
   background-color: var(--main-text-color);
+  text-align: center;
+}
+.title-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-}
-.title-text {
   color: var(--main-bg-color);
 }
 
@@ -98,10 +99,20 @@ ul {
   background-color: var(--title-btn-active-hover);
   color: var(--title-text-color);
 }
-/* Виправити !!! */
-/* .none {
-  display: none;
-} */
+
+.none {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .post-title {
   font-weight: 500;
